@@ -16,7 +16,7 @@ The Bunny Bunny Harmony! game.
 
 ## Build
 
-&emsp;Open the solution from VS2015, Ctrl+F5. Or just double click on the Dorothy.exe from the /Bin folder.
+&emsp;Open the solution from VS2015, Ctrl+F5. Or just double click on the decompressed file Dorothy.exe from /Bin/Bunny.zip.
 
 ## License
 &emsp;Do what the f@@k you want with it.
