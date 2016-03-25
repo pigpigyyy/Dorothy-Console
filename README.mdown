@@ -1,7 +1,7 @@
 # Dorothy Console
 
 ## Background (Zhuanbility)
-&emsp;The former Ipp Club is a club named The 9\`th Game Studio that was founded in 2009. When I was the highest tech supporter of that club. I wrote this library to make the club looked more with niubility in no doubt seriously, and the girls all round the world all love me not at that any very moment. Years later I found the copy of that lib, and decided to publish it out on to the Internet, to shine.
+&emsp;The former Ipp Club is a club named The 9\`th Game Studio that was founded in 2009. When I was the highest tech supporter of that club. I wrote this library to make the club looked more with niubility in no doubt seriously, and the girls all around the world all love me not at that very moment. Years later I found the copy of that lib, and decided to publish it out on to the Internet, to shine.
 
 ## Intro
 &emsp;Dorothy is a clever Lolita girl. She is the main character from the Wonderful Wizard Of Oz series. She was with her friends, the brainless scarecrow, the heartless ironman and the coward lion. They were adventuring all reams of the Oz empire to fulfil their dreams. After long travels they finally found out that one should not rely himself on others espacially some Oz wizards with magic tricks. Nothing is true, everything is permitted. So I found the story is amusing, then I wrote this little tiny Windows command line console system game library named 'Dorothy Console', to prove my appreciation.
