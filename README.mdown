@@ -1,0 +1,18 @@
+# Dorothy Console
+
+## Background (Zhuanbility)
+&emsp;The former Ipp Club is a club named The 9\`th Game Studio that was founded in 2009. When I was the highest tech supporter of that club. I wrote this library to make the club looked more with niubility in no doubt seriously, and the girls all round the world all love me not at that any very moment. Years later I found the copy of that lib, and decided to publish it out on to the Internet, to shine.
+
+## Intro
+&emsp;Dorothy is a clever Lolita girl. She is the main character from the Wonderful Wizard Of Oz series. She was with her friends, the brainless scarecrow, the heartless ironman and the coward lion. They were adventuring all reams of the Oz empire to fulfil their dreams. After long travels they finally found out that one should not rely himself on others espacially some Oz wizards with magic tricks. Nothing is true, everything is permitted. So I found the story is amusing, then I wrote this little tiny Windows command line console system game library named 'Dorothy Console', to prove my appreciation.
+
+## Feature
+&emsp;This game library is based on Windows command line console system, which means a game made with 'Dorothy' will be filled with giant mosaics. And the game graphic supports the ultra low resolution. Only 16 colors can be rendered. Poor graphic render performance. But it support playing music format like mp3, sound format like wav. And support input methods of keyboard and mouse. The upgraded 'Dorothy' support 2D animations like frame change, rotation and scaling. Support loading 24 bit bmp image (produce it with MS paint program), but only the spcified 16 colors can be read. A lot of console control APIs provided.  
+&emsp;There is a sample game named 'Bunny Bunny Harmony!' inside. But using this lib to develop your game is depracated, for it was a beginner\`s work lacking good designs and was developed many years ago with abnormal minds in problems.  
+
+## Build
+
+&emsp;Open the solution from VS2015, Ctrl+F5. Or just double click on the Dorothy.exe from the /Bin folder.
+
+## License
+&emsp;Do what the f@@k you want with it.
