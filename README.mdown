@@ -9,7 +9,8 @@
 ## Feature
 &emsp;This game library is based on Windows command line console system, which means a game made with 'Dorothy' will be filled with giant mosaics. And the game graphic supports the ultra low resolution. Only 16 colors can be rendered. Poor graphic render performance. But it support playing music format like mp3, sound format like wav. And support input methods of keyboard and mouse. The upgraded 'Dorothy' support 2D animations like frame change, rotation and scaling. Support loading 24 bit bmp image (produce it with MS paint program), but only the spcified 16 colors can be read. A lot of console control APIs provided.  
 &emsp;There is a sample game named 'Bunny Bunny Harmony!' inside. But using this lib to develop your game is depracated, for it was a beginner\`s work lacking good designs and was developed many years ago with abnormal minds in problems.  
-![Bunny Bunny Harmony](https://raw.githubusercontent.com/IppClub/Dorothy-Console/master/bunny.png)
+
+<p style="text-align:center;">![Bunny Bunny Harmony](https://raw.githubusercontent.com/IppClub/Dorothy-Console/master/bunny.png)<br>The Bunny Bunny Harmony! game.</p>
 
 ## Build
 
