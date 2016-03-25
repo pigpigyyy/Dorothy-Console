@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>游戏的核心结构</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+</style>
+</head>
+
+<body>
+
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:center; ">
+<img height="33" src="wps_clip_image-29918.png" width="33" /><span style="font-weight:bold; font-size:18.0000pt; font-family:'微软雅黑'; ">游戏的核心结构</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">
+一个游戏的的核心就是一个循环结构。像是<font face="Times New Roman">30FPS</font><font face="宋体">的游戏就是每秒钟游戏会做</font><font face="Times New Roman">30</font><font face="宋体">个循环，也就是每秒钟游戏的逻辑会更新</font><font face="Times New Roman">30</font><font face="宋体">次，同时游戏画面也会更新</font><font face="Times New Roman">30</font><font face="宋体">次，这样的一次循环叫做游戏的一帧（</font><font face="Times New Roman">frame</font><font face="宋体">）。写成代码大概就像这样</font></span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+//<font face="宋体">当游戏正在运行</font></span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">While&nbsp;</span><span style="font-size:10.5000pt; font-family:'Times New Roman'; ">&nbsp;(bGameIsRunning)</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+{</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+//<font face="宋体">如果执行一个游戏帧的时候到了就进行一遍处理</font></span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+if&nbsp;(bRunAFrame)</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+{</span></p>
+<p class="p0" style="margin-left:21.0000pt; text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">
+//</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">进行一次游戏逻辑的处理和更新</span></p>
+<p class="p0" style="margin-left:21.0000pt; text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">……</span></p>
+<p class="p0" style="margin-left:21.0000pt; text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+//<font face="宋体">进行画面绘制和更新</font></span></p>
+<p class="p0" style="margin-left:21.0000pt; text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">……</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+}</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+//<font face="宋体">等待下一个游戏帧的时候到来</font></span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+}</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">
+游戏的一帧里要做多少事是需要小心安排的，如果你在游戏的一帧里做了太多的事，本来是<font face="Times New Roman">30FPS</font><font face="宋体">的游戏每秒</font><font face="Times New Roman">30</font><font face="宋体">帧也就是每一帧最多只能花</font><font face="Times New Roman">0.033</font><font face="宋体">秒做运算的，由于某一帧花的时间太多比如花了一秒钟，那游戏在这一秒里本来要更新</font><font face="Times New Roman">30</font><font face="宋体">次的现在只更新了</font><font face="Times New Roman">1</font><font face="宋体">次，玩家就会感到游戏突然卡了不动了一秒钟了。</font></span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">在<font face="Times New Roman">Bunny</font><font face="宋体">里，通过封装了一个</font><font face="Times New Roman">oGame</font><font face="宋体">类来处理这个结构安排，</font><font face="Times New Roman">oGame</font><font face="宋体">里主要有的几个方法是</font><font face="Times New Roman">Init()</font><font face="宋体">，</font><font face="Times New Roman">Run()</font><font face="宋体">，</font><font face="Times New Roman">Stop()</font><font face="宋体">，</font><font face="Times New Roman">Frame()</font><font face="宋体">，在</font><font face="Times New Roman">Init</font><font face="宋体">里做一些游戏的基本初始化，在</font><font face="Times New Roman">Run</font><font face="宋体">里面跑游戏的核心循环，</font><font face="Times New Roman">Stop</font><font face="宋体">用来停止游戏，</font><font face="Times New Roman">Frame</font><font face="宋体">函数是一个抽象方法的接口，留给</font><font face="Times New Roman">oGame</font><font face="宋体">的继承类来实现，这个函数每秒钟会自动被调用指定的帧数次，只要它每次的执行时间不超过每一帧计划可以执行的时间。这样你在</font><font face="Times New Roman">oGame</font><font face="宋体">的继承类里只要重写</font><font face="Times New Roman">Frame</font><font face="宋体">函数并在里面写好游戏每一帧要做的事就可以了。至于游戏是怎么控制好时间在每一秒内均匀的调用</font><font face="Times New Roman">Frame</font><font face="宋体">函数指定次数的可以参看</font><font face="Times New Roman">oGame</font><font face="宋体">的</font><font face="Times New Roman">Run</font><font face="宋体">函数代码。</font></span></p>
+<p/><p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,0,128); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="../Bunny.html">返回</a></span></p>
+
+</body>
+
+</html>

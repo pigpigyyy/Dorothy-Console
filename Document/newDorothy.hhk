@@ -1,0 +1,1302 @@
+<HTML><HEAD>
+</HEAD><BODY><UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="default">
+<PARAM NAME="Local" VALUE="default.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="HowToUse">
+<PARAM NAME="Local" VALUE="HowToUse.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Extra">
+<PARAM NAME="Local" VALUE="Extra.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetCount">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\GetCount.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsRunning">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\IsRunning.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\Start.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="StartCounting">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\StartCounting.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Stop">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\Stop.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ZeroCount">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer\ZeroCount.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oAccurateTimer">
+<PARAM NAME="Local" VALUE="Dorothy\oAccurateTimer.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetHeight">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetHeight.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetInputHandle">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetInputHandle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetOutputHandle">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetOutputHandle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSingleton">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetSingleton.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetWidth">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetWidth.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetWindowHandle">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\GetWindowHandle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Initialize">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\Initialize.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="MoveWindow">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\MoveWindow.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetCursorPos">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\SetCursorPos.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetCursorWidth">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\SetCursorWidth.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetFont">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\SetFont.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetScreenSize">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\SetScreenSize.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetWindowTitle">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\SetWindowTitle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ShowCursor">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\ShowCursor.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ShowScreen">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole\ShowScreen.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oConsole">
+<PARAM NAME="Local" VALUE="Dorothy\oConsole.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oCreateImageFromBMP24">
+<PARAM NAME="Local" VALUE="Dorothy\oCreateImageFromBMP24.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Get">
+<PARAM NAME="Local" VALUE="Dorothy\oDateTime\Get.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oDateTime">
+<PARAM NAME="Local" VALUE="Dorothy\oDateTime\oDateTime.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Dorothy\oDateTime\Update.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oDateTime">
+<PARAM NAME="Local" VALUE="Dorothy\oDateTime.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Create">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\Create.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetChar">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\GetChar.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetColor">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\GetColor.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetData">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\GetData.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetHeight">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\GetHeight.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetWidth">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\GetWidth.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Release">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\Release.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetChar">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\SetChar.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetColor">
+<PARAM NAME="Local" VALUE="Dorothy\oImage\SetColor.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oImage">
+<PARAM NAME="Local" VALUE="Dorothy\oImage.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetCursorX">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetCursorX.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetCursorY">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetCursorY.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetKeyState">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetKeyState.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetLeftButtonState">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetLeftButtonState.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetRightButtonState">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetRightButtonState.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSingleton">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\GetSingleton.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Initialize">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\Initialize.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsKeyDown">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsKeyDown.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsKeyUp">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsKeyUp.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsLeftButtonDown">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsLeftButtonDown.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsLeftButtonUp">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsLeftButtonUp.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsRightButtonDown">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsRightButtonDown.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsRightButtonUp">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsRightButtonUp.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsWheelDown">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsWheelDown.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsWheelUp">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\IsWheelUp.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Dorothy\oInput\Update.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oInput">
+<PARAM NAME="Local" VALUE="Dorothy\oInput.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Close">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\Close.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSingleton">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\GetSingleton.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetState">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\GetState.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Open">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\Open.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Pause">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\Pause.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Play">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\Play.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetVolume">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\SetVolume.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Stop">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer\Stop.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oMusicPlayer">
+<PARAM NAME="Local" VALUE="Dorothy\oMusicPlayer.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Copy">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\Copy.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetDisplayChar">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetDisplayChar.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetDisplayColor">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetDisplayColor.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetHeight">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetHeight.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetImage">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetImage.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetRect">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetRect.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetWidth">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetWidth.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetX">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetX.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetY">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetY.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetZ">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\GetZ.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsDetective">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\IsDetective.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsVisible">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\IsVisible.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Render">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\Render.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetDetective">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetDetective.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetImage">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetImage.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetPosition">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetPosition.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetSize">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetSize.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetVisible">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetVisible.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetZ">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\SetZ.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Dorothy\oObject\Update.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oObject">
+<PARAM NAME="Local" VALUE="Dorothy\oObject.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="AddNew">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\AddNew.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Clear">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\Clear.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetAt">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\GetAt.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetCollisionList +1">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\GetCollisionList +1.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetCollisionList">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\GetCollisionList.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Remove">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\Remove.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Render">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\Render.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Size">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\Size.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="TakeOver">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\TakeOver.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup\Update.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oObjectGroup">
+<PARAM NAME="Local" VALUE="Dorothy\oObjectGroup.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Begin">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\Begin.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="CaptureScreen">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\CaptureScreen.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="DrawCircle">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\DrawCircle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="DrawLine">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\DrawLine.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="DrawPoint">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\DrawPoint.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="DrawRectangle">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\DrawRectangle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetBuffer">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetBuffer.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetHeight">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetHeight.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetRect">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetRect.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSingleton">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetSingleton.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetWidth">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetWidth.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetX">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetX.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetY">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetY.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetZoomX">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetZoomX.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetZoomY">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\GetZoomY.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Initialize">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\Initialize.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetView">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\SetView.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ZoomScreen">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen\ZoomScreen.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oScreen">
+<PARAM NAME="Local" VALUE="Dorothy\oScreen.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="LoadFromFile">
+<PARAM NAME="Local" VALUE="Dorothy\oSound\LoadFromFile.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Play">
+<PARAM NAME="Local" VALUE="Dorothy\oSound\Play.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Release">
+<PARAM NAME="Local" VALUE="Dorothy\oSound\Release.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetVolume">
+<PARAM NAME="Local" VALUE="Dorothy\oSound\SetVolume.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Stop">
+<PARAM NAME="Local" VALUE="Dorothy\oSound\Stop.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oSound">
+<PARAM NAME="Local" VALUE="Dorothy\oSound.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetDevice">
+<PARAM NAME="Local" VALUE="Dorothy\oSoundPlayer\GetDevice.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSingleton">
+<PARAM NAME="Local" VALUE="Dorothy\oSoundPlayer\GetSingleton.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetSound">
+<PARAM NAME="Local" VALUE="Dorothy\oSoundPlayer\GetSound.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Initialize">
+<PARAM NAME="Local" VALUE="Dorothy\oSoundPlayer\Initialize.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oSoundPlayer">
+<PARAM NAME="Local" VALUE="Dorothy\oSoundPlayer.html">
+</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Dorothy">
+<PARAM NAME="Local" VALUE="Dorothy.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="使用声音设备">
+<PARAM NAME="Local" VALUE="ToTo\使用声音设备.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="使用游戏物体">
+<PARAM NAME="Local" VALUE="ToTo\使用游戏物体.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="使用绘图设备">
+<PARAM NAME="Local" VALUE="ToTo\使用绘图设备.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="使用输入设备">
+<PARAM NAME="Local" VALUE="ToTo\使用输入设备.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="抓捕和释放萝莉">
+<PARAM NAME="Local" VALUE="ToTo\抓捕和释放萝莉.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="控制台管理">
+<PARAM NAME="Local" VALUE="ToTo\控制台管理.html">
+</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ToTo">
+<PARAM NAME="Local" VALUE="ToTo.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetState">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\GetState.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetTarget">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\GetTarget.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetFPS">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\SetFPS.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetLoop">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\SetLoop.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetReverse">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\SetReverse.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetSpeed">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\SetSpeed.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetTarget">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\SetTarget.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\Start.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\Update.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="UpdateFrame">
+<PARAM NAME="Local" VALUE="Witch\oAnimation\UpdateFrame.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oAnimation">
+<PARAM NAME="Local" VALUE="Witch\oAnimation.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="operator=">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation\operator=.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetFrame">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation\SetFrame.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetUpFrame">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation\SetUpFrame.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation\Start.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oFrameAnimation">
+<PARAM NAME="Local" VALUE="Witch\oFrameAnimation.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Witch\oMoveAnimation\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetMove">
+<PARAM NAME="Local" VALUE="Witch\oMoveAnimation\SetMove.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oMoveAnimation\Start.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oMoveAnimation">
+<PARAM NAME="Local" VALUE="Witch\oMoveAnimation.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Witch\oRotateAnimation\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetRotate">
+<PARAM NAME="Local" VALUE="Witch\oRotateAnimation\SetRotate.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oRotateAnimation\Start.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oRotateAnimation">
+<PARAM NAME="Local" VALUE="Witch\oRotateAnimation.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="End">
+<PARAM NAME="Local" VALUE="Witch\oScaleAnimation\End.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetScale">
+<PARAM NAME="Local" VALUE="Witch\oScaleAnimation\SetScale.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oScaleAnimation\Start.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oScaleAnimation">
+<PARAM NAME="Local" VALUE="Witch\oScaleAnimation.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="IsRunning">
+<PARAM NAME="Local" VALUE="Witch\oTimer\IsRunning.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oTimer">
+<PARAM NAME="Local" VALUE="Witch\oTimer\oTimer.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetDelay">
+<PARAM NAME="Local" VALUE="Witch\oTimer\SetDelay.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetFPS">
+<PARAM NAME="Local" VALUE="Witch\oTimer\SetFPS.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetLoopTime">
+<PARAM NAME="Local" VALUE="Witch\oTimer\SetLoopTime.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Start">
+<PARAM NAME="Local" VALUE="Witch\oTimer\Start.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Stop">
+<PARAM NAME="Local" VALUE="Witch\oTimer\Stop.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Update">
+<PARAM NAME="Local" VALUE="Witch\oTimer\Update.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oTimer">
+<PARAM NAME="Local" VALUE="Witch\oTimer.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Copy">
+<PARAM NAME="Local" VALUE="Witch\oUnit\Copy.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetDisplayChar">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetDisplayChar.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetDisplayColor">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetDisplayColor.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetRect">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetRect.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetRotateAngle">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetRotateAngle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetScaleX">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetScaleX.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetScaleY">
+<PARAM NAME="Local" VALUE="Witch\oUnit\GetScaleY.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oUnit">
+<PARAM NAME="Local" VALUE="Witch\oUnit\oUnit.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Render">
+<PARAM NAME="Local" VALUE="Witch\oUnit\Render.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="ScaleImage">
+<PARAM NAME="Local" VALUE="Witch\oUnit\ScaleImage.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetRenderRect">
+<PARAM NAME="Local" VALUE="Witch\oUnit\SetRenderRect.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetRotateAngle">
+<PARAM NAME="Local" VALUE="Witch\oUnit\SetRotateAngle.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetSize">
+<PARAM NAME="Local" VALUE="Witch\oUnit\SetSize.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oUnit">
+<PARAM NAME="Local" VALUE="Witch\oUnit.html">
+</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Witch">
+<PARAM NAME="Local" VALUE="Witch.html">
+</OBJECT>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="">
+</OBJECT>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Generate">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\Generate.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Get">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\Get.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetLength">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\GetLength.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetMap">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\GetMap.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="GetPath">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\GetPath.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetEntrance">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\SetEntrance.html">
+</OBJECT>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="SetExit">
+<PARAM NAME="Local" VALUE="Wizard\oMaze\SetExit.html">
+</OBJECT>
+</UL>
+</UL>
+<UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="oMaze">
+<PARAM NAME="Local" VALUE="Wizard\oMaze.html">
+</OBJECT>
+</UL>
+<LI><OBJECT TYPE="text/sitemap">
+<PARAM NAME="Name" VALUE="Wizard">
+<PARAM NAME="Local" VALUE="Wizard.html">
+</OBJECT>
+</UL></BODY></HTML>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Scene_Header">
+      <UniqueIdentifier>{747ee55c-77b9-41ff-aa15-e4c100115590}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Scene_Source">
+      <UniqueIdentifier>{d6f96c29-8d35-4999-a4fb-e1df2cbd57db}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Basic_Header">
+      <UniqueIdentifier>{6a937ef8-f837-42e9-b6d9-6c4e24be826c}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Basic_Source">
+      <UniqueIdentifier>{91e70af5-abd7-491f-9b87-7d77e3019227}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Extra_Header">
+      <UniqueIdentifier>{83dfbec7-f03d-4b0e-adb8-072325013227}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Extra_Source">
+      <UniqueIdentifier>{6c9abc44-98b4-4eed-95bc-853372561360}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Game_Header">
+      <UniqueIdentifier>{dfa29954-e69c-4fde-8c13-6efad28f4e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game_Source">
+      <UniqueIdentifier>{607db16b-c4fc-44ca-9cf0-9b65a93a4374}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic_Source\oDataBase.cpp">
+      <Filter>Basic_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic_Source\oScene.cpp">
+      <Filter>Basic_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra_Source\oBack.cpp">
+      <Filter>Extra_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra_Source\oBunny.cpp">
+      <Filter>Extra_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra_Source\oButton.cpp">
+      <Filter>Extra_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra_Source\oFlower.cpp">
+      <Filter>Extra_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra_Source\oNumber.cpp">
+      <Filter>Extra_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Source\oBunnyGame.cpp">
+      <Filter>Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Source\oSceneDorothy.cpp">
+      <Filter>Scene_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Source\oSceneGame.cpp">
+      <Filter>Scene_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Source\oSceneMenu.cpp">
+      <Filter>Scene_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Source\oSceneReadme.cpp">
+      <Filter>Scene_Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header File\Dorothy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header File\Scarecrow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header File\ToTo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header File\Wizard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic_Header\oDataBase.h">
+      <Filter>Basic_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic_Header\oScene.h">
+      <Filter>Basic_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_Header\oBack.h">
+      <Filter>Extra_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_Header\oBunny.h">
+      <Filter>Extra_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_Header\oButton.h">
+      <Filter>Extra_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_Header\oFlower.h">
+      <Filter>Extra_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra_Header\oNumber.h">
+      <Filter>Extra_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Header\oBunnyGame.h">
+      <Filter>Game_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header\oGameScenes.h">
+      <Filter>Scene_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header\oSceneDorothy.h">
+      <Filter>Scene_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header\oSceneGame.h">
+      <Filter>Scene_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header\oSceneMenu.h">
+      <Filter>Scene_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Header\oSceneReadme.h">
+      <Filter>Scene_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

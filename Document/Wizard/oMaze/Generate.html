@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Generate</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../../Image/Bk.PNG')">
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;<a href="../../default.html"><img alt="Dorothy" class="style1" src="../../Image/DorothySmall.PNG" /></a></p>
+<hr />
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+oMaze类的成员函数，生成迷宫的方法。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+void</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">Generate</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">int</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;iL</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">ength</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;=&nbsp;10,&nbsp;</span><span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">int</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">difficulty</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;=&nbsp;100);</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+参数</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">length&nbsp;——迷宫的边长</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;difficulty&nbsp;——到达同一个点出现其它支路的可能性参数，只能取1~100，取其它值都算为默认值100</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——迷宫的只能是正方形的，因为我觉得其它形状的迷宫很丑。关于difficulty，取1时迷宫会？，取100时迷宫中任两点只有一条路可以连通</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——这个函数可以在任何时候任意调用来生成新迷宫</span></p>
+<p/><hr /><a href="../oMaze.html">
+<img alt="Dorothy" class="style1" height="73" src="../../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style2 {
+	color: #0000FF;
+}
+.style1 {
+	border-width: 0px;
+}
+</style>
+
+<title>使用绘图设备</title>
+</head>
+<body style="background-image: url('../Image/Bk.PNG')">
+
+<a href="../default.html">
+<img alt="Dorothy" class="style1" src="../Image/DorothySmall.PNG" /></a>
+<p class="p0" style="text-align: center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+使用绘图设备</p>
+<p/><p class="p0">
+<span style=" color:rgb(128,128,0); font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+函数列表</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oSetScreenView</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">X</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Y</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oGetScreenViewX</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oGetScreenViewY</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+<p class="p0" style="font-family: 宋体">
+<span class="style2">void</span> oZoomScreen(<span class="style2">float</span> 
+fZoomX, <span class="style2">float</span> fZoomY);<span class="style2">float</span> 
+oGetScreenZoomX();<span class="style2">float</span> oGetScreenZoomY();</p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oBeginPaint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">fill</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;=&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">BACK_BLACK</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oEndPaint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+<p class="p0">
+<span style=" font-size:10.5000pt; font-family:'宋体'; ">oImageID&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oLoadFromBMP</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span></span></span>
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">filename</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oDrawImage</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(oImageID&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">imageID</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">X</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Y</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oDrawPoint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPoint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">pointList</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oUInt</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">number</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;color,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">ch</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;=&nbsp;</span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; ">&#39;&nbsp;&#39;</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oDrawLine</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(</span><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPoint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&amp;&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">start</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;<span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPoint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&amp;&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">end</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;<span style=" font-size:10.5000pt; font-family:'宋体'; ">color</span>,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">ch</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;=&nbsp;</span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; ">&#39;&nbsp;&#39;</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oDrawCircle</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPoint</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&amp;&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">center</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">radius</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;<span style=" font-size:10.5000pt; font-family:'宋体'; ">color</span>,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">ch</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;=&nbsp;</span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; ">&#39;&nbsp;&#39;</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oDrawRectangle</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2">const </span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">RECT</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&amp;&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">rect</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;color,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">ch</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;=&nbsp;</span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; ">&#39;&nbsp;&#39;</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+函数说明</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oSetScreenView</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>X</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>Y</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">设置可见区域在游戏世界中的位置，(X,&nbsp;Y)为游戏世界中的坐标</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oGetScreenViewX</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>();</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">获得可见区域左上角在游戏世界中的横坐标</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oGetScreenViewY</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>();</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">获得可见区域左上角在游戏世界中的纵坐标</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oBeginPaint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>WORD</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>fill</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;=&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>BACK_BLACK</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">开始绘制图形并按需要清理屏幕，fill为屏幕清理成的颜色，当为_NONE的时候不作清理，可用的颜色参数见后面的部分。在调用这个函数后面才应该进行图形的绘制</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oEndPaint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>();</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">结束绘制图形，并把绘制结果显示在屏幕上，所有绘制图形的操作应该在这个函数前进行</span></p>
+<p/>
+<p class="p0">
+<span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>oImageID&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oLoadFromBMP</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong> 
+const </strong></span></span></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>*&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>filename</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">载入一个24位的bmp图像，只有Windows绘图程序默认颜色的前16种会被载入，其它颜色会被当成透明部分。Filename为图片文件名，如果载入成功返回值为载入图片的ID，如果载入失败则返回值为-1。一定要小心保存好图片ID在后来使用</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oDrawImage</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(&nbsp;oImageID&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>imageID</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>X</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>Y</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">绘制一个图片。imageID为图片ID，(X,&nbsp;Y)为图片左上角在游戏世界的坐标。所有的Draw函数只能在oBeginPaint和oEndPaint中间调用，否则不能正常绘制</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oDrawPoint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong>const
+</strong></span></span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>oPoint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>*&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>pointList</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oUInt</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>number</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>WORD</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>ch</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;=&nbsp;</strong></span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; "><strong>&#39;&nbsp;&#39;</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">绘制点。</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">pointList为一个点数组的开始指针，number为这个数组中点的数量，是点的颜色，ch为点上的字符。</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">可用的颜色参数见后面的部分</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oDrawLine</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong>const
+</strong></span></span><strong>oPoint&amp;</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>start</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong>const
+</strong></span></span><strong>oPoint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&amp;&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>end</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>WORD</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>ch</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;=&nbsp;</strong></span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; "><strong>&#39;&nbsp;&#39;</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">绘制线。start为线在游戏世界的开始坐标，end为结束坐标，为线的颜色，ch为线上的字符。可用的颜色参数见后面的部分</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oDrawCircle</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong>const
+</strong></span></span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>oPoint</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&amp;&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>center</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>int</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>radius</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>WORD</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>ch</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;=&nbsp;</strong></span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; "><strong>&#39;&nbsp;&#39;</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">绘制圆。c</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">enter为圆</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">在游戏世界</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">的中心坐标</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oDrawRectangle</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; " class="style2"><strong>const
+</strong></span></span></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>RECT</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&amp;&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>rect</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>WORD</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>ch</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;=&nbsp;</strong></span><span style=" color:rgb(163,21,21); font-size:10.5000pt; font-family:'宋体'; "><strong>&#39;&nbsp;&#39;</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">绘制矩形。rect为矩形的区域，rect里的left，top为矩形在游戏世界的左上角坐标，right，bottom为右下角坐标，为颜色，ch为字符</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+可取的颜色参数</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+_NONE//透明色</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_BLACK</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_BLUE</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_GREEN</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_CYAN</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_RED</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_MAGENTA</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_YELLOW</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_WHITE</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_BLACK</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_BLUE</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_GREEN</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_CYAN</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_RED</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_MAGENTA</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_YELLOW</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_WHITE</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+FORE_INTENSITY//前景色增亮</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+BACK_INTENSITY//后景色增亮</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+前景色可以任意和FORE_INTENSITY组合</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+后景色可以任意和BACK_INTENSITY组合</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+前景色和后景色可以任意组合</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+例如颜色参数可以是这个样子</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+(&nbsp;BACK_GREEN&nbsp;)</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+(&nbsp;FORE_GREEN&nbsp;|&nbsp;FORE_INTENSITY&nbsp;)</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+(&nbsp;FORE_GREEN&nbsp;|&nbsp;FORE_INTENSITY&nbsp;|&nbsp;BACK_MAGENTA&nbsp;&nbsp;|&nbsp;BACK_INTENSITY&nbsp;)</span></p>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+前后景色的意思见Dorothy中的Extra文档</span></p>
+
+<p/><a href="../ToTo.html">
+<img alt="Dorothy" class="style1" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+</html>

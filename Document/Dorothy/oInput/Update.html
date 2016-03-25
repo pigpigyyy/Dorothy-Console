@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><title>
+Update</title><style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style4 {
+	border-width: 0px;
+}
+</style>
+</head><body style="background-image: url('../../Image/Bk.PNG')"><div class="Section0">
+	<a href="../../default.html">
+	<img alt="Dorothy" class="style4" src="../../Image/DorothySmall.PNG" /></a><hr />
+	<p class="p0">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	oInput类的成员函数，更新并获取当前用户的输入状态。</span></p>
+	<p/>
+	<p class="p0">
+	<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+	void</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Update</span><span style="font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+	<p/>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	参数</span><span style="color:rgb(128,0,128); font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="font-size:10.5000pt; font-family:'宋体'; ">无</span></p>
+	<p/>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	——一定要在检查用户输入之前调用这个函数一次，就像这样</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	oInput::GetSingleton()-&gt;Update();</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	//检测用户有没有同时按下Ctrl+左键点击</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	if&nbsp;(oInput::GetSingleton()-&gt;IsKeyDown(VK_CONTROL)</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	&amp;&amp;&nbsp;oInput::GetSingleton()-&gt;IsLeftClicked())</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	{</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	//Do&nbsp;something</span></p>
+	<p class="p0">
+	<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+	}</span></p>
+</div><p/><hr /> 
+<p><a href="../oInput.html">
+<img alt="Dorothy" class="style4" height="73" src="../../Image/DorothySmallBlack.PNG" width="205" /></a></p>
+
+</body></html>

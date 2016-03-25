@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+<title>使用声音设备</title>
+</head>
+<body style="background-image: url('../Image/Bk.PNG')">
+
+<a href="../default.html">
+<img alt="Dorothy" class="style1" src="../Image/DorothySmall.PNG" /></a><hr />
+<p class="p0" style="text-align: center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+使用声音设备</p><p/>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+函数列表</span></p>
+<p class="p0">
+<span style=" font-size:10.5000pt; font-family:'宋体'; "><span style=" font-size:10.5000pt; font-family:'宋体'; ">
+oSoundID</span>&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oLoadFromWAV</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">const 
+char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">filename</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPlaySound</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(&nbsp;oSoundID&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">soundID</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">bool</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">loop</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oStopSound</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(&nbsp;<span style=" font-size:10.5000pt; font-family:'宋体'; ">oSoundID</span>&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">soundID</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oPlayMusic</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">(&nbsp;</span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">const 
+char</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">mp3file</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;);</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+void</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oStopMusic</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+bool</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oIsMusicEnd</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">();</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(128,128,0); font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+函数说明</span></p>
+<p class="p0">
+<span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>oSoundID&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oLoadFromWAV</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>const 
+char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>*&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>filename</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">载入一个.wav格式的声音，filename为声音文件名，如果载入成功则返回载入声音的ID，如果载入失败返回-1</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oPlaySound</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(&nbsp;oSoundID&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>soundID</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>,&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>bool</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>loop</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">播放指定ID的声音，soundID为声音的ID，loop为是否循环播放的标志，true循环，false不循环</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oStopSound</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(&nbsp;<span style=" font-size:10.5000pt; font-family:'宋体'; ">oSoundID</span>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>soundID</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">停止指定ID的声音的播放，soundID为声音的ID</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oPlayMusic</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>(&nbsp;</strong></span><span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; "><strong>const 
+char</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>*&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>mp3file</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;);</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">播放MP3音乐，mp3file为要播放的文件名</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>void</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oStopMusic</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>();</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">停止正在播放的音乐</span></p>
+<p/>
+<p class="p0">
+<span style=" color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<strong>bool</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>&nbsp;</strong></span><span style=" color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; "><strong>oIsMusicEnd</strong></span><span style=" font-size:10.5000pt; font-family:'宋体'; "><strong>();</strong></span></p>
+<p class="p0">
+<span style=" color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+说明：</span><span style=" font-size:10.5000pt; font-family:'宋体'; ">获取当前的音乐播放状态，如果返回值为true表示播放停止，false表示正在播放</span></p>
+
+<p/>
+<a href="../ToTo.html">
+<img alt="Dorothy" class="style1" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body></html>

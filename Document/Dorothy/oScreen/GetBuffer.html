@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>GetBuffer</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style2 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../../Image/Bk.PNG')">
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-weight: bold; font-size: 18.0000pt; font-family: '微软雅黑';">
+<a href="../../default.html">
+<img alt="Dorothy" class="style2" src="../../Image/DorothySmall.PNG" /></a></span></p>
+<hr />
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+oScreen类的成员函数，获得当前图形设备的绘图缓冲区。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">
+CHAR_INFO</span><span style="font-size: 10.5000pt; font-family: '宋体';">*&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetBuffer</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+参数</span><span style="color: rgb(128,0,128); font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">返回的是当前</span><span style="font-size: 10.5000pt; font-family: '宋体';">绘图缓冲区的首地址</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——绘图缓冲区是一个被当作二维数组的一维数组，它的宽和高可以通过oScreen::GetWidth()和oScreen::GetHeight()获得然后你可以这样像二维数组一样遍历它</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+int&nbsp;iHeight&nbsp;=&nbsp;oScreen::GetSingleton()-&gt;GetHeight();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+int&nbsp;iWidth&nbsp;=&nbsp;oScreen::GetSingleton()-&gt;GetWidth();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+CHAR_INFO*&nbsp;pkBuffer&nbsp;=&nbsp;oScreen::GetSingleton()-&gt;GetBuffer();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+for&nbsp;(int&nbsp;y&nbsp;=&nbsp;0;y&nbsp;&lt;&nbsp;iHeight;y++)</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+{</span></p>
+<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+for&nbsp;(int&nbsp;x&nbsp;=&nbsp;0;x&nbsp;&lt;&nbsp;iWidth;x++)</span></p>
+<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+{</span></p>
+<p class="p0" style="margin-left: 21.0000pt; text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+pkBuffer[y*iWidth&nbsp;+&nbsp;x]&nbsp;=&nbsp;kCharInfo;</span></p>
+<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+}</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+}</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——关于CHAR_INFO请参见Extra文档——</span></p>
+<p/><hr /><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<a href="../oScreen.html">
+<img alt="Dorothy" class="style2" height="73" src="../../Image/DorothySmallBlack.PNG" width="205" /></a></p>
+
+</body>
+
+</html>

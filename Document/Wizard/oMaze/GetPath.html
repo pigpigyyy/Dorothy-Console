@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>GetPath</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	color: #0000FF;
+}
+.style2 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../../Image/Bk.PNG')">
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<a href="../../default.html">
+<img alt="Dorothy" class="style2" height="69" src="../../Image/DorothySmall.PNG" width="200" /></a></p>
+<hr />
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+oMaze类的成员函数，获得迷宫中两点间的最短路径。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+void</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetPath</span><span style="font-size: 10.5000pt; font-family: '宋体';">(<span class="style1">const</span> </span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oPoint</span><span style="font-size: 10.5000pt; font-family: '宋体';">&amp;&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">begin</span><span style="font-size: 10.5000pt; font-family: '宋体';">,&nbsp;</span><span style="font-size: 10.5000pt; font-family: '宋体';" class="style1">const</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"> oPoint</span><span style="font-size: 10.5000pt; font-family: '宋体';">&amp;&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">end</span><span style="font-size: 10.5000pt; font-family: '宋体';">,&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">vector</span><span style="font-size: 10.5000pt; font-family: '宋体';">&lt;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oPoint</span><span style="font-size: 10.5000pt; font-family: '宋体';">&gt;&amp;&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">ThePath</span><span style="font-size: 10.5000pt; font-family: '宋体';">);</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+参数</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">begin&nbsp;——起始点</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end&nbsp;——终点</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ThePath&nbsp;——储存路径点的列表，建议用同一个vector来多次获取路径可以节省资源消耗</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——这个获取最短路径用的是所有路径节点最多只遍历一次的算法，不是教科书上的那些老东西，速度更快些</span></p>
+<p/><hr />
+
+<a href="../oMaze.html">
+<img alt="Dorothy" class="style2" height="73" src="../../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+
+</html>

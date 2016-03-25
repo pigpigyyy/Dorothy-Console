@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Dorothy 1.0游戏引擎的结构图</title>
+<style type="text/css">
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="Section0">
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: center;">
+	<span style="font-weight: bold; font-size: 18.0000pt; font-family: '微软雅黑';">
+	<img height="16" src="Image/ToTo.PNG" width="16" alt="ToTo"/>Dorothy&nbsp;1.0游戏引擎的结构图
+	</span></p><p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">
+	一、在</span><span style="color: rgb(128,0,128); font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">Dorothy.dll</span><span style="font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">里的情况是</span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: center;">
+	<span style="font-size: 10.5000pt; font-family: 'Times New Roman';">
+	<img src="Image/imgA9.gif" alt="Dorothy"/></span></p>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="font-size: 10.5000pt; font-family: '宋体';">
+	&nbsp;&nbsp;&nbsp;
+	图中：</span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">&nbsp;&nbsp;&nbsp;
+	实线+箭头+instance</span><span style="font-size: 10.5000pt; font-family: '宋体';">表示这个类只能有一个实体，并在几乎是任何地方都可以被访问到。</span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	&nbsp;&nbsp;&nbsp;
+	实线+箭头</span><span style="font-size: 10.5000pt; font-family: '宋体';">表示一个类里包含箭头指向的另一个类。</span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	&nbsp;&nbsp;&nbsp;
+	虚线+箭头</span><span style="font-size: 10.5000pt; font-family: '宋体';">表示一个类使用了箭头指向的另一个类。</span><br />
+	</p><p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">
+	二、在</span><span style="color: rgb(128,0,128); font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">Witch.dll</span><span style="font-weight: normal; font-size: 10.5000pt; font-family: '宋体';">里的情况是</span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: center;">
+	<span style="font-size: 10.5000pt; font-family: 'Times New Roman';">
+	<img src="Image/imgAF.gif" alt="Witch"/></span></p>
+	<p class="p0" style="text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="font-size: 10.5000pt; font-family: '宋体';">
+	图中：</span></p>
+	<p class="p0" style="margin-left: 21.0000pt; text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	实线+空心箭头</span><span style="font-size: 10.5000pt; font-family: '宋体';">表示一个类继承并在内容上扩展了箭头所指的另一个类。</span></p>
+	<p class="p0" style="margin-left: 21.0000pt; text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	虚线+空心箭头</span><span style="font-size: 10.5000pt; font-family: '宋体';">表示一个类把箭头所指的抽象类按自己的方式实现成了一个具体的类。</span></p>
+	<p class="p0" style="margin-left: 21.0000pt; text-indent: 21.0000pt; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="font-size: 10.5000pt; font-family: '宋体';">
+	有的类在本图上部分列出的方法都是虚方法，如果要继承和扩展这些类则要按需要重写这些方法。</span><a href="default.html"><img height="16" src="Image/Miku.png" width="16" alt="Miku" class="style1"/></a></p>
+</div>
+
+</body>
+
+</html>

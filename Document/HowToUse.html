@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>使用Dorothy</title>
+<style type="text/css">
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'宋体'; }
+.style1 {
+	font-family: Times New Roman;
+}
+.style2 {
+	border-width: 0px;
+}
+.style4 {
+	font-family: 宋体，Arial，Helvetica，sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+<div class="Section0">
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:center; ">
+	<span>
+	<img height="32" src="Image/Scarecrow.png" width="32" alt="Scarecrow" /></span><span style="font-weight:bold; font-size:18.0000pt; font-family:'微软雅黑'; ">使用Dorothy&nbsp;1.0</span></p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+	如果要用Dorothy来制作游戏的话，首先写C++的环境比如Visual&nbsp;Studio&nbsp;2005/2008/2010是必备的，再装个</span><span style="color:rgb(238,50,36); font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">Visual&nbsp;Assist&nbsp;X</span><span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">可以帮助让编程变成一种享受。</span></p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+	然后是具体Dorothy配置方法。</span></p>
+	<p/>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; font-weight: bold; font-size: large; font-family: 微软雅黑; color: #800080;">
+	Step1&nbsp;建立工程和拷贝文件</p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+	在Visual&nbsp;Studio中创建一个C++的控制台应用程序工程，如图</span></p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<img src="Image/NewProject.PNG" height="458" width="681" alt="NewProject"/><span style="font-size:10.5000pt; font-family:'宋体'; "> 
+	</span></p>
+	<p/>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; font-size: 10.5000pt; font-family: 宋体，Arial，Helvetica，sans-serif;">
+	然后将需要的库的头文件（Header）和库文件（Library）拷到项目中。如上图里，我把解决方案名和工程名都起名为Sample&nbsp;Project，而解决方案的位置在D:\C++File下面，那么需要的头文件就应该拷到D:\C++File\Sample&nbsp;Project\Sample&nbsp;Project下面，如图</p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<img src="Image/Folder1.PNG" height="409" width="619" alt="Folder1"/><span style="font-size:10.5000pt; font-family:'宋体'; "> 
+	</span></p>
+	<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+	<span style="font-size:10.5000pt; font-family:'宋体'; "> 
+	接下来把Dubug和Release两个文件夹下的库文件(包括.lib和.dll文件)拷到解决方案目录下的Debug和Release文件夹中，如果没有这两个文件夹就自己建</span>。</p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	&nbsp;</p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; color: #808000;">
+	库文件拷贝目录位置</p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<img src="Image/Folder2.PNG" height="410" width="619" alt="Folder2"/></p>
+	<p/>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; font-weight: bold; font-family: 微软雅黑; font-size: large; color: #800080;">
+	Step2&nbsp;配置工程和添加文件</p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-size:10.5000pt; font-family:'宋体'; ">
+	在Visual&nbsp;Studio下对项目(不是解决方案点右键进入属性页面，然后分别在debug设置和release设置模式下，把“配置属性—&gt;链接器—&gt;常规—&gt;附加库目录”对应的改为</span><span style="color:rgb(0,0,128); font-weight:bold; font-size:12.0000pt; font-family:'宋体'; ">../debug</span><span style="font-size:10.5000pt; font-family:'宋体'; ">和</span><span style="color:rgb(0,0,128); font-weight:bold; font-size:12.0000pt; font-family:'宋体'; ">../release</span><span style="font-size:10.5000pt; font-family:'宋体'; ">并点击应用。</span></p>
+	<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+	<img src="Image/Setting.PNG" height="547" width="746" alt="Setting"/></p>
+	<p/>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; font-size: 10.5000pt; font-family: 宋体，Arial，Helvetica，sans-serif;">
+	然后在项目中添加现有项，把需要库的头文件添加进工程里。最后在程序中#include所用组件的头文件，并using&nbsp;namespace&nbsp;引入对应的命名空间，然后在程序里就可以用了。</p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-size:10.5000pt; " class="style4">
+	还要说的是使用</span><span style="font-size:10.5000pt; font-family:'宋体'; "><span class="style4">Dorothy的某个组件部分需要使用的库文件头文件命名空间的对应关系，如图</span></span></p>
+	<table style="border-collapse:collapse;
+
+padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; ">
+		<tr>
+			<td style="width:106.5000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:0.5000pt solid rgb(0,0,0); border-right:0.5000pt solid rgb(0,0,0); border-top:0.5000pt solid rgb(0,0,0); border-bottom:0.5000pt solid rgb(0,0,0); " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			使用的部分</span></p>
+			</td>
+			<td style="width:98pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt; border-left:none; border-right:0.5000pt solid rgb(0,0,0); border-top:0.5000pt solid rgb(0,0,0); border-bottom:0.5000pt solid rgb(0,0,0);" valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			拷贝库文件</span></p>
+			</td>
+			<td style="width:113.3000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none; border-right:0.5000pt solid rgb(0,0,0); border-top:0.5000pt solid rgb(0,0,0); border-bottom:0.5000pt solid rgb(0,0,0); " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			添加头文件和引用</span></p>
+			</td>
+			<td style="width:99.8000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none; border-right:0.5000pt solid rgb(0,0,0); border-top:0.5000pt solid rgb(0,0,0); border-bottom:0.5000pt solid rgb(0,0,0);" valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			引入命名空间</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:106.5000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:0.5000pt solid rgb(0,0,0); border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);" valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy</span></p>
+			</td>
+			<td style="width:98pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.lib</span></p>
+			</td>
+			<td style="width:113.3000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.h</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			#include&nbsp;&quot;Dorothy.h&quot;</span></p>
+			</td>
+			<td style="width:99.8000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Using&nbsp;namespace&nbsp;Dorothy;</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:106.5000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:0.5000pt solid rgb(0,0,0);  border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Witch</span></p>
+			</td>
+			<td style="width:98pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.lib</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Witch.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Witch.lib</span></p>
+			</td>
+			<td style="width:113.3000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.h</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Witch.h</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			#include&nbsp;&quot;Witch.h&quot;</span></p>
+			</td>
+			<td style="width:99.8000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Using&nbsp;namespace&nbsp;Witch;</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:106.5000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:0.5000pt solid rgb(0,0,0);  border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Wizard</span></p>
+			</td>
+			<td style="width:98pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Wizard.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Wizard.lib</span></p>
+			</td>
+			<td style="width:113.3000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Wizard.h&nbsp;</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			#include&nbsp;&quot;Wizard.h&quot;</span></p>
+			</td>
+			<td style="width:99.8000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Using&nbsp;namespace&nbsp;Wizard;</span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:106.5000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:0.5000pt solid rgb(0,0,0);  border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			ToTo</span></p>
+			</td>
+			<td style="width:98pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Dorothy.lib</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			ToTo.dll</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			ToTo.lib</span></p>
+			</td>
+			<td style="width:113.3000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			ToTo.h</span></p>
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			#include&nbsp;&quot;ToTo.h&quot;</span></p>
+			</td>
+			<td style="width:99.8000pt; padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ; border-left:none;  ; border-right:0.5000pt solid rgb(0,0,0); border-top:none; border-bottom:0.5000pt solid rgb(0,0,0);  " valign="top">
+			<p class="p0">
+			<span style="font-size:10.5000pt; font-family:'宋体'; ">
+			Using&nbsp;namespace&nbsp;ToTo;</span></p>
+			</td>
+		</tr>
+	</table>
+	<p/>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; font-weight: bold; font-family: 微软雅黑; font-size: large; color: #800080;">
+	Step3&nbsp;发布用Dorothy制作的程序</p>
+	<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+	<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+	用Dorothy开发的程序如果要发布出来给别人用，那么除了你的程序使用的资源文件外还要一起发布的是程序使用到的Dorothy的Release版dll。还有就是用Visual&nbsp;Studio开发的程序要在其它没装过VS的电脑上运行可能得安装一个叫vcredist_x86.exe，用来支持VS开发的C++发布程序运行的补丁。还有一个无语的问题是不知道微软做了什么，用VS开发的控制台程序的运行居然还需要.net&nbsp;framework的支持(具体哪个版本的.net&nbsp;framework不清楚，但是3.5应该是支持的，因为在vista和win7上没出现过这个问题）。</span><a href="default.html"><img alt="Miku" class="style2" height="16" src="Image/Miku.png" width="16" /></a></p>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>用场景来管理游戏</TITLE>
+<META content="text/html; charset=unicode" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.6001.18939"></HEAD>
+<BODY>﻿ 
+<STYLE type=text/css>
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+</STYLE>
+
+<DIV class=Section0>
+<P style="TEXT-ALIGN: center; MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt" class=p0><IMG 
+src="wps_clip_image-30434.png" width=33 height=33><SPAN 
+style="FONT-FAMILY: '微软雅黑'; FONT-SIZE: 18pt; FONT-WEIGHT: bold">用场景来管理游戏</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">这个是Bunny里用来管理游戏的办法。就是把一个游戏划分为有不同的物体和逻辑的一个个的场景。比如Bunny游戏就把自己划分为</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">DorothyScene（游戏引擎logo动画场景）</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">MenuScene（游戏的选择界面场景）</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">ReadmeScene（说明场景）</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">GameScene(游戏场景)</SPAN></P>
+<P style="MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">等四个场景。然后根据游戏需要切换到某个场景，接着就只更新这个场景的逻辑和对它进行绘制，到需要的时候又切换更新其它场景。</SPAN></P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; FONT-SIZE: 10.5pt">具体的组织是这样的。所有的场景都继承自oScene这个抽象类，oScene里列出了每个场景必须自己实现的方法Begin()和Update()，并要求每个场景在第一次调用Begin的时候进行初始化，在后来的调用只做场景的重置；在Update里进行每一帧场景的更新和绘制并返回场景更新后的状态。如果返回的状态将是SS_END，就先指定好下一个要切换的场景的ID，然后主程序获取该状态后再获取它指定的下个场景ID进行场景切换；如果返回状态为SS_STOP，主程序就结束游戏。在这样的设置之下，在主程序对游戏的管理就很简单了，只要管理场景的更新和切换和游戏结束就可以（见Bunny的Main.cpp）。</SPAN></P>
+<P>
+<P style="MARGIN-TOP: 0pt; TEXT-INDENT: 21pt; MARGIN-BOTTOM: 0pt" class=p0><SPAN 
+style="FONT-FAMILY: '宋体'; COLOR: rgb(128,0,128); FONT-SIZE: 10.5pt"><A 
+href="../Bunny.html">返回</A></SPAN></P></DIV></BODY></HTML>

@@ -1,0 +1,765 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="EasyCHM.exe  www.zipghost.com">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Begin">
+		<param name="Local" value="Dorothy/oScreen/Begin.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bunny">
+		<param name="Local" value="Bunny.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CaptureScreen">
+		<param name="Local" value="Dorothy/oScreen/CaptureScreen.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clear">
+		<param name="Local" value="Dorothy/oObjectGroup/Clear.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Close">
+		<param name="Local" value="Dorothy/oMusicPlayer/Close.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copy">
+		<param name="Local" value="Dorothy/oObject/Copy.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copy">
+		<param name="Local" value="Witch/oUnit/Copy.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Create">
+		<param name="Local" value="Dorothy/oImage/Create.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dorothy 结构">
+		<param name="Local" value="ClassDiagrams.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dorothy Intro">
+		<param name="Local" value="Intro.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ToTo库">
+		<param name="Local" value="ToTo.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dorothy库">
+		<param name="Local" value="Dorothy.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Dorothy/oScreen/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Witch/oAnimation/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Witch/oFrameAnimation/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Witch/oMoveAnimation/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Witch/oRotateAnimation/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="End">
+		<param name="Local" value="Witch/oScaleAnimation/End.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Extra">
+		<param name="Local" value="Extra.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Generate">
+		<param name="Local" value="Wizard/oMaze/Generate.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Get">
+		<param name="Local" value="Dorothy/oDateTime/Get.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Get">
+		<param name="Local" value="Wizard/oMaze/Get.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetAt">
+		<param name="Local" value="Dorothy/oObjectGroup/GetAt.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetBuffer">
+		<param name="Local" value="Dorothy/oScreen/GetBuffer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetChar">
+		<param name="Local" value="Dorothy/oImage/GetChar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCollisionList">
+		<param name="Local" value="Dorothy/oObjectGroup/GetCollisionList.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCollisionList +1">
+		<param name="Local" value="Dorothy/oObjectGroup/GetCollisionList%20+1.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetColor">
+		<param name="Local" value="Dorothy/oImage/GetColor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCount">
+		<param name="Local" value="Dorothy/oAccurateTimer/GetCount.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCursorX">
+		<param name="Local" value="Dorothy/oInput/GetCursorX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCursorY">
+		<param name="Local" value="Dorothy/oInput/GetCursorY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetData">
+		<param name="Local" value="Dorothy/oImage/GetData.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDisplayChar">
+		<param name="Local" value="Dorothy/oObject/GetDisplayChar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDisplayChar">
+		<param name="Local" value="Witch/oUnit/GetDisplayChar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDisplayColor">
+		<param name="Local" value="Dorothy/oObject/GetDisplayColor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDisplayColor">
+		<param name="Local" value="Witch/oUnit/GetDisplayColor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetHeight">
+		<param name="Local" value="Dorothy/oConsole/GetHeight.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetHeight">
+		<param name="Local" value="Dorothy/oImage/GetHeight.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetHeight">
+		<param name="Local" value="Dorothy/oObject/GetHeight.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetHeight">
+		<param name="Local" value="Dorothy/oScreen/GetHeight.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetImage">
+		<param name="Local" value="Dorothy/oObject/GetImage.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetInput">
+		<param name="Local" value="Dorothy/oConsole/GetInput.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetLength">
+		<param name="Local" value="Wizard/oMaze/GetLength.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetMap">
+		<param name="Local" value="Wizard/oMaze/GetMap.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetOutput">
+		<param name="Local" value="Dorothy/oConsole/GetOutput.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetPath">
+		<param name="Local" value="Wizard/oMaze/GetPath.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetRect">
+		<param name="Local" value="Dorothy/oObject/GetRect.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetRect">
+		<param name="Local" value="Dorothy/oScreen/GetRect.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetRect">
+		<param name="Local" value="Witch/oUnit/GetRect.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetRotateAngle">
+		<param name="Local" value="Witch/oUnit/GetRotateAngle.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetScaleX">
+		<param name="Local" value="Witch/oUnit/GetScaleX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetScaleY">
+		<param name="Local" value="Witch/oUnit/GetScaleY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSingleton">
+		<param name="Local" value="Dorothy/oConsole/GetSingleton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSingleton">
+		<param name="Local" value="Dorothy/oInput/GetSingleton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSingleton">
+		<param name="Local" value="Dorothy/oMusicPlayer/GetSingleton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSingleton">
+		<param name="Local" value="Dorothy/oScreen/GetSingleton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSingleton">
+		<param name="Local" value="Dorothy/oSoundPlayer/GetSingleton.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetSound">
+		<param name="Local" value="Dorothy/oSoundPlayer/GetSound.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetState">
+		<param name="Local" value="Dorothy/oMusicPlayer/GetState.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetState">
+		<param name="Local" value="Witch/oAnimation/GetState.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetTarget">
+		<param name="Local" value="Witch/oAnimation/GetTarget.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetWidth">
+		<param name="Local" value="Dorothy/oConsole/GetWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetWidth">
+		<param name="Local" value="Dorothy/oImage/GetWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetWidth">
+		<param name="Local" value="Dorothy/oObject/GetWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetWidth">
+		<param name="Local" value="Dorothy/oScreen/GetWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetWindow">
+		<param name="Local" value="Dorothy/oConsole/GetWindow.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetX">
+		<param name="Local" value="Dorothy/oObject/GetX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetX">
+		<param name="Local" value="Dorothy/oScreen/GetX.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetY">
+		<param name="Local" value="Dorothy/oObject/GetY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetY">
+		<param name="Local" value="Dorothy/oScreen/GetY.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetZ">
+		<param name="Local" value="Dorothy/oObject/GetZ.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Init">
+		<param name="Local" value="Dorothy/oConsole/Init.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Init">
+		<param name="Local" value="Dorothy/oInput/Init.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Init">
+		<param name="Local" value="Dorothy/oScreen/Init.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Init">
+		<param name="Local" value="Dorothy/oSoundPlayer/Init.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsDetective">
+		<param name="Local" value="Dorothy/oObject/IsDetective.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsKeyDown">
+		<param name="Local" value="Dorothy/oInput/IsKeyDown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsLeftButtonDown">
+		<param name="Local" value="Dorothy/oInput/IsLeftButtonDown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsRightButtonDown">
+		<param name="Local" value="Dorothy/oInput/IsRightButtonDown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsRunning">
+		<param name="Local" value="Witch/oTimer/IsRunning.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsVisible">
+		<param name="Local" value="Dorothy/oObject/IsVisible.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LoadFromBMP">
+		<param name="Local" value="Witch/LoadFromBMP.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LoadFromFile">
+		<param name="Local" value="Dorothy/oSound/LoadFromFile.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MoveWindow">
+		<param name="Local" value="Dorothy/oConsole/MoveWindow.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oAccurateTimer类">
+		<param name="Local" value="Dorothy/oAccurateTimer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oAnimation类">
+		<param name="Local" value="Witch/oAnimation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oConsole类">
+		<param name="Local" value="Dorothy/oConsole.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oDateTime">
+		<param name="Local" value="Dorothy/oDateTime/oDateTime.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oDateTime类">
+		<param name="Local" value="Dorothy/oDateTime.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oFrameAnimation类">
+		<param name="Local" value="Witch/oFrameAnimation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oImage类">
+		<param name="Local" value="Dorothy/oImage.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oInput类">
+		<param name="Local" value="Dorothy/oInput.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oMaze类">
+		<param name="Local" value="Wizard/oMaze.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oMoveAnimation类">
+		<param name="Local" value="Witch/oMoveAnimation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oMusicPlayer类">
+		<param name="Local" value="Dorothy/oMusicPlayer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oObjectGroup类">
+		<param name="Local" value="Dorothy/oObjectGroup.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oObject类">
+		<param name="Local" value="Dorothy/oObject.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Open">
+		<param name="Local" value="Dorothy/oMusicPlayer/Open.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="operator=">
+		<param name="Local" value="Witch/oFrameAnimation/operator=.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oRotateAnimation类">
+		<param name="Local" value="Witch/oRotateAnimation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oScaleAnimation类">
+		<param name="Local" value="Witch/oScaleAnimation.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oScreen类">
+		<param name="Local" value="Dorothy/oScreen.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oSoundPlayer类">
+		<param name="Local" value="Dorothy/oSoundPlayer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oSound类">
+		<param name="Local" value="Dorothy/oSound.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oTimer">
+		<param name="Local" value="Witch/oTimer/oTimer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oTimer类">
+		<param name="Local" value="Witch/oTimer.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oUnit">
+		<param name="Local" value="Witch/oUnit/oUnit.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="oUnit类">
+		<param name="Local" value="Witch/oUnit.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pause">
+		<param name="Local" value="Dorothy/oMusicPlayer/Pause.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Play">
+		<param name="Local" value="Dorothy/oMusicPlayer/Play.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Play">
+		<param name="Local" value="Dorothy/oSound/Play.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Push">
+		<param name="Local" value="Dorothy/oObjectGroup/Push.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Release">
+		<param name="Local" value="Dorothy/oImage/Release.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Release">
+		<param name="Local" value="Dorothy/oSound/Release.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Remove">
+		<param name="Local" value="Dorothy/oObjectGroup/Remove.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Render">
+		<param name="Local" value="Dorothy/oObject/Render.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Render">
+		<param name="Local" value="Dorothy/oObjectGroup/Render.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Render">
+		<param name="Local" value="Witch/oUnit/Render.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ScaleImage">
+		<param name="Local" value="Witch/oUnit/ScaleImage.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetChar">
+		<param name="Local" value="Dorothy/oImage/SetChar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetColor">
+		<param name="Local" value="Dorothy/oImage/SetColor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetCursorPos">
+		<param name="Local" value="Dorothy/oConsole/SetCursorPos.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetCursorWidth">
+		<param name="Local" value="Dorothy/oConsole/SetCursorWidth.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetDelay">
+		<param name="Local" value="Witch/oTimer/SetDelay.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetDetective">
+		<param name="Local" value="Dorothy/oObject/SetDetective.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetEntrance">
+		<param name="Local" value="Wizard/oMaze/SetEntrance.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetExit">
+		<param name="Local" value="Wizard/oMaze/SetExit.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetFont">
+		<param name="Local" value="Dorothy/oConsole/SetFont.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetFPS">
+		<param name="Local" value="Witch/oAnimation/SetFPS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetFPS">
+		<param name="Local" value="Witch/oTimer/SetFPS.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetFrame">
+		<param name="Local" value="Witch/oFrameAnimation/SetFrame.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetImage">
+		<param name="Local" value="Dorothy/oObject/SetImage.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetLoop">
+		<param name="Local" value="Witch/oAnimation/SetLoop.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetLoopTime">
+		<param name="Local" value="Witch/oTimer/SetLoopTime.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetMove">
+		<param name="Local" value="Witch/oMoveAnimation/SetMove.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetPosition">
+		<param name="Local" value="Dorothy/oObject/SetPosition.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetRenderRect">
+		<param name="Local" value="Witch/oUnit/SetRenderRect.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetReverse">
+		<param name="Local" value="Witch/oAnimation/SetReverse.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetRotate">
+		<param name="Local" value="Witch/oRotateAnimation/SetRotate.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetRotateAngle">
+		<param name="Local" value="Witch/oUnit/SetRotateAngle.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetScale">
+		<param name="Local" value="Witch/oScaleAnimation/SetScale.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetSize">
+		<param name="Local" value="Dorothy/oObject/SetSize.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetSize">
+		<param name="Local" value="Witch/oUnit/SetSize.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetSpeed">
+		<param name="Local" value="Witch/oAnimation/SetSpeed.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetTarget">
+		<param name="Local" value="Witch/oAnimation/SetTarget.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetUpFrame">
+		<param name="Local" value="Witch/oFrameAnimation/SetUpFrame.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetView">
+		<param name="Local" value="Dorothy/oScreen/SetView.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetVisible">
+		<param name="Local" value="Dorothy/oObject/SetVisible.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetVolume">
+		<param name="Local" value="Dorothy/oMusicPlayer/SetVolume.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetVolume">
+		<param name="Local" value="Dorothy/oSound/SetVolume.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetWindowSize">
+		<param name="Local" value="Dorothy/oConsole/SetWindowSize.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetWindowTitle">
+		<param name="Local" value="Dorothy/oConsole/SetWindowTitle.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SetZ">
+		<param name="Local" value="Dorothy/oObject/SetZ.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ShowCursor">
+		<param name="Local" value="Dorothy/oConsole/ShowCursor.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ShowScreen">
+		<param name="Local" value="Dorothy/oConsole/ShowScreen.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Size">
+		<param name="Local" value="Dorothy/oObjectGroup/Size.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oAnimation/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oFrameAnimation/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oMoveAnimation/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oRotateAnimation/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oScaleAnimation/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Start">
+		<param name="Local" value="Witch/oTimer/Start.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="StartCounting">
+		<param name="Local" value="Dorothy/oAccurateTimer/StartCounting.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Stop">
+		<param name="Local" value="Dorothy/oMusicPlayer/Stop.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Stop">
+		<param name="Local" value="Dorothy/oSound/Stop.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Stop">
+		<param name="Local" value="Witch/oTimer/Stop.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Dorothy/oDateTime/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Dorothy/oInput/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Dorothy/oObject/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Dorothy/oObjectGroup/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Witch/oAnimation/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Update">
+		<param name="Local" value="Witch/oTimer/Update.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UpdateFrame">
+		<param name="Local" value="Witch/oAnimation/UpdateFrame.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Witch库">
+		<param name="Local" value="Witch.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wizard库">
+		<param name="Local" value="Wizard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ZeroCount">
+		<param name="Local" value="Dorothy/oAccurateTimer/ZeroCount.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="主页">
+		<param name="Local" value="default.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dorothy 使用">
+		<param name="Local" value="HowToUse.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="使用声音设备">
+		<param name="Local" value="ToTo/使用声音设备.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="使用游戏物体">
+		<param name="Local" value="ToTo/使用游戏物体.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="使用绘图设备">
+		<param name="Local" value="ToTo/使用绘图设备.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="使用输入设备">
+		<param name="Local" value="ToTo/使用输入设备.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="广告页">
+		<param name="Local" value="广告页.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="抓捕和释放萝莉">
+		<param name="Local" value="ToTo/抓捕和释放萝莉.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="控制台管理">
+		<param name="Local" value="ToTo/控制台管理.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="游戏的核心结构">
+		<param name="Local" value="Bunny/游戏的核心结构.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="用场景来管理游戏">
+		<param name="Local" value="Bunny/用场景来管理游戏.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="管理游戏数据">
+		<param name="Local" value="Bunny/管理游戏数据.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自己扩展Dorothy">
+		<param name="Local" value="Bunny/自己扩展Dorothy.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

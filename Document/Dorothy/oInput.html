@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>oInput类</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	color: #010001;
+}
+.style2 {
+	font-family: 宋体;
+	font-size: 10.5pt;
+	color: #010001;
+}
+.style3 {
+	color: #000000;
+}
+.style4 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../Image/Bk.PNG')">
+
+<div class="Section0">
+	<a href="../default.html">
+	<img alt="Dorothy" class="style4" src="../Image/DorothySmall.PNG" /></a><hr />
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+	oInput类</p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	这个类就代表了控制台的输入设备，通过它可以获取用户对键盘和鼠标的操作。</span></p>
+	<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+	方法</span></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/Initialize.html">bool</a></span><a href="oInput/Initialize.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">Initialize</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">HANDLE</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">hInput</span><span style="font-size: 10.5000pt; font-family: '宋体';">);</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/Update.html">void</a></span><a href="oInput/Update.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">Update</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a></p>
+	<p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetKeyState.html">bool</a></span><a href="oInput/GetKeyState.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetKey</span><span class="style2">State</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oUInt8</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;<span class="style1">iVK_KEY</span>);</span></a><p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsKeyUp.html">bool</a></span><a href="oInput/IsKeyUp.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsKey</span><span class="style2">Up</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oUInt8</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;<span class="style1">iVK_KEY</span>);</span></a><p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsKeyDown.html">bool</a></span><a href="oInput/IsKeyDown.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsKey</span><span class="style2">Down</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oUInt8</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;<span class="style1">iVK_KEY</span>);</span></a><p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsLeftButtonUp.html">bool</a></span><a href="oInput/IsLeftButtonUp.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsLeftButtonUp</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a><p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsRightButtonUp.html">bool</a></span><a href="oInput/IsRightButtonUp.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsRightButtonUp</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsLeftClicked.html">bool</a></span><a href="oInput/IsLeftButtonDown.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsLeft</span><span style="font-size: 10.5000pt; font-family: '宋体';"><span class="style1">ButtonDown</span>();</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsRightClicked.html">bool</a></span><a href="oInput/IsRightButtonDown.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">IsRight</span><span style="font-size: 10.5000pt; font-family: '宋体';"><span class="style1">ButtonDown</span>();</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsWheelDown.html">bool</a></span><a href="oInput/IsWheelDown.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">Is</span><span style="font-size: 10.5000pt; font-family: '宋体';"><span class="style1">WheelDown</span>();</span></a></p>
+	<p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/IsWheelUp.html">bool</a></span><a href="oInput/IsWheelUp.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">Is</span><span style="font-size: 10.5000pt; font-family: '宋体';"><span class="style1">Wheel<span lang="en-us">Up</span></span>();</span></a><p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetLeftButtonState.html">bool</a></span><span style="font-size: 10.5000pt; font-family: '宋体';"><a href="oInput/GetLeftButtonState.html">&nbsp;<span class="style3" lang="en-us">GetLeftButtonState</span>();</a></span><p/>
+	<p/>
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetRightButtonState.html">bool</a></span><span style="font-size: 10.5000pt; font-family: '宋体';"><a href="oInput/GetRightButtonState.html">&nbsp;<span class="style3" lang="en-us">GetRightButtonState</span>();</a></span><p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetCursorX.html">int</a></span><a href="oInput/GetCursorX.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetCursorX</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetCursorY.html">int</a></span><a href="oInput/GetCursorY.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetCursorY</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a></p>
+	<p/>
+	<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+	<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+	<a href="oInput/GetSingleton.html">static</a></span><a href="oInput/GetSingleton.html"><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oInput</span><span style="font-size: 10.5000pt; font-family: '宋体';">*&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">GetSingleton</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></a></p>
+	<p/>
+</div>
+<hr /> 
+
+<a href="../Dorothy.html">
+<img alt="Dorothy" class="style4" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a> 
+
+</body>
+
+</html>

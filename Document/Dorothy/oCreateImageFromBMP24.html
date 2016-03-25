@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>oCreateImageFromBMP24</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+.style2 {
+	font-family: 宋体;
+}
+</style>
+</head>
+
+<body style="background-image: url('../Image/Bk.PNG')">
+
+<a href="../default.html">
+<img alt="Dorothy" class="style1" height="69" src="../Image/DorothySmall.PNG" width="200" /></a><hr />
+
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+载入图片的方法</p>
+<p/>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+使用该方法载入外部图片为oImage对象。</span></p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+<span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">
+oImage</span><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;oCreateImageFromBMP24(&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">const 
+char</span><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">filename </span><span style="font-size:10.5000pt; font-family:'宋体'; ">)</span></p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+参数</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;filename&nbsp;——图片的路径</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+<span class="style2">&nbsp;&nbsp;&nbsp;&nbsp; 返回指向一个图片对象的指针</span>&nbsp;</p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+——这个函数只支持24位bmp的图片载入，并且只能载入以下十六种颜色</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Black&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00000000</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Blue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00000080</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Green&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00008000</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Cyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00008080</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Red&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00800000</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Magenta&nbsp;&nbsp;&nbsp;&nbsp;0x00800080</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Yellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00808000</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+White&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x00C0C0C0</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Black&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x00808080</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Blue&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x000000FF</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Green&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x0000FF00</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Cyan&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x0000FFFF</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Red&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x00FF0000</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Magenta&nbsp;I&nbsp;&nbsp;0x00FF00FF</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Yellow&nbsp;&nbsp;I&nbsp;&nbsp;0x00FFFF00</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; text-align:left; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+White&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;0x00FFFFFF</span></p>
+<p class="p0">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+或者简单的说就是Windows绘图程序默认绘图颜色的前16种，其它的颜色会被当作透明部分处理</span></p>
+<p class="p0">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+——要注意返回的图片的管理权全部归你，如果这个图片不要了的话一定要delete或是Release<span lang="en-us">()</span>掉释放内存，一定要小心管理。</span></p>
+<p/><hr /><a href="../Dorothy.html">
+<img alt="Dorothy" class="style1" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A865F10-07BD-4C52-BAA5-8D3581BC20B8}</ProjectGuid>
+    <RootNamespace>WindowsConsole0</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\My SDKs\Include;.\Game_Header;..\Header File;.\Scene_Header;.\Extra_Header;.\Basic_Header;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>user32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\My SDKs\Include;.\Game_Header;..\Header File;.\Scene_Header;.\Extra_Header;.\Basic_Header;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <AdditionalLibraryDirectories>..\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic_Source\oDataBase.cpp" />
+    <ClCompile Include="Basic_Source\oScene.cpp" />
+    <ClCompile Include="Extra_Source\oBack.cpp" />
+    <ClCompile Include="Extra_Source\oBunny.cpp" />
+    <ClCompile Include="Extra_Source\oButton.cpp" />
+    <ClCompile Include="Extra_Source\oFlower.cpp" />
+    <ClCompile Include="Extra_Source\oNumber.cpp" />
+    <ClCompile Include="Game_Source\oBunnyGame.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Scene_Source\oSceneDorothy.cpp" />
+    <ClCompile Include="Scene_Source\oSceneGame.cpp" />
+    <ClCompile Include="Scene_Source\oSceneMenu.cpp" />
+    <ClCompile Include="Scene_Source\oSceneReadme.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header File\Dorothy.h" />
+    <ClInclude Include="..\Header File\Scarecrow.h" />
+    <ClInclude Include="..\Header File\ToTo.h" />
+    <ClInclude Include="..\Header File\Wizard.h" />
+    <ClInclude Include="Basic_Header\oDataBase.h" />
+    <ClInclude Include="Basic_Header\oScene.h" />
+    <ClInclude Include="Extra_Header\oBack.h" />
+    <ClInclude Include="Extra_Header\oBunny.h" />
+    <ClInclude Include="Extra_Header\oButton.h" />
+    <ClInclude Include="Extra_Header\oFlower.h" />
+    <ClInclude Include="Extra_Header\oNumber.h" />
+    <ClInclude Include="Game_Header\oBunnyGame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene_Header\oGameScenes.h" />
+    <ClInclude Include="Scene_Header\oSceneDorothy.h" />
+    <ClInclude Include="Scene_Header\oSceneGame.h" />
+    <ClInclude Include="Scene_Header\oSceneMenu.h" />
+    <ClInclude Include="Scene_Header\oSceneReadme.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dorothy\Dorothy.vcxproj">
+      <Project>{cbe32227-f3d9-4e7f-80e7-731ee73b139b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Scarecrow\Scarecrow.vcxproj">
+      <Project>{768f0d00-2487-4a4f-bb85-e75cb8ad6b21}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Wizard\Wizard.vcxproj">
+      <Project>{8108b54c-149e-4211-814b-d35aee461d3f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>oObject类</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style2 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body background="../Image/Bk.PNG">
+
+<a href="../default.html">
+<img alt="Dorothy" class="style2" src="../Image/DorothySmall.PNG" /></a><hr />
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+oObject类</p>
+<p/>
+<p class="p0">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="mso-spacerun:'yes'; color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+物体类，Dorothy中一切可以直接显示或是可以交互的东西的基类，它本身也可以直接被使用。一个物体类的实例可以设置一张关联的图片，在物体被绘制的时候只会把设置的原图片整张显示出来，不能进行其它的图片处理。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+方法</span></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetImage.html">void</a></span><a href="oObject/SetImage.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetImage</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oImage</span><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">image</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetZ.html">void</a></span><a href="oObject/SetZ.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetZ</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Z</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetVisible.html">void</a></span><a href="oObject/SetVisible.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetVisible</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">bool</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">bVisible</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetDetective.html">void</a></span><a href="oObject/SetDetective.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetDetective</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">bool</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">bDetective</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetX.html">int</a></span><a href="oObject/GetX.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetX</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetY.html">int</a></span><a href="oObject/GetY.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetY</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetZ.html">int</a></span><a href="oObject/GetZ.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetZ</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetWidth.html">int</a></span><a href="oObject/GetWidth.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetWidth</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetHeight.html">int</a></span><a href="oObject/GetHeight.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetHeight</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/IsVisible.html">bool</a></span><a href="oObject/IsVisible.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">IsVisible</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/IsDetective.html">bool</a></span><a href="oObject/IsDetective.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">IsDetective</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetImage.html">oImage</a></span><a href="oObject/GetImage.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetImage</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetPosition.html">virtual void</a></span><a href="oObject/SetPosition.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetPosition</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">X</span><span style="font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Y</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/SetSize.html">v<span lang="en-us">irtual v</span>oid</a></span><a href="oObject/SetSize.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">SetSize</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">width</span><span style="font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">height</span><span style="font-size:10.5000pt; font-family:'宋体'; ">);</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetRect.html">virtual</a></span><a href="oObject/GetRect.html"><span style="font-size:10.5000pt; font-family:'宋体'; "> 
+const&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oRect</span><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetRect</span><span style="font-size:10.5000pt; font-family:'宋体'; ">() 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetDisplayColor.html">virtual</a></span><a href="oObject/GetDisplayColor.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">WORD</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetDisplayColor</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">X</span><span style="font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Y</span><span style="font-size:10.5000pt; font-family:'宋体'; ">) 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/GetDisplayChar.html">virtual</a></span><a href="oObject/GetDisplayChar.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">char</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">GetDisplayChar</span><span style="font-size:10.5000pt; font-family:'宋体'; ">(</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">X</span><span style="font-size:10.5000pt; font-family:'宋体'; ">,&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">int</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Y</span><span style="font-size:10.5000pt; font-family:'宋体'; ">) 
+const;</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/Update.html">virtual</a></span><a href="oObject/Update.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">void</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Update</span><span style="font-size:10.5000pt; font-family:'宋体'; ">();</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/Render.html">virtual</a></span><a href="oObject/Render.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">void</span><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Render</span><span style="font-size:10.5000pt; font-family:'宋体'; ">();</span></a></p>
+<p/>
+<p class="p0">
+<span style="color:rgb(0,0,255); font-size:10.5000pt; font-family:'宋体'; ">
+<a href="oObject/Copy.html">virtual</a></span><a href="oObject/Copy.html"><span style="font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">oObject</span><span style="font-size:10.5000pt; font-family:'宋体'; ">*&nbsp;</span><span style="color:rgb(1,0,1); font-size:10.5000pt; font-family:'宋体'; ">Copy</span><span style="font-size:10.5000pt; font-family:'宋体'; ">();</span></a></p>
+<p/><hr /><a href="../Dorothy.html">
+<img alt="Dorothy" class="style2" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a> 
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Extra</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body>
+
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(128,128,0); font-size:10.5000pt; font-family:'宋体'; ">
+Extra</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+关于CHAR_INFO结构体</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">
+这个是控制台方法直接操作控制台屏幕缓冲用的结构体，一个这样的结构代表控制台屏幕上的一个点，在<font face="Times New Roman">Dorothy</font><font face="宋体">中只要知道它包含</font><font face="Times New Roman">[</font><font face="宋体">字符</font><font face="Times New Roman">]</font><font face="宋体">和</font><font face="Times New Roman">[</font><font face="宋体">显示信息</font><font face="Times New Roman">]</font><font face="宋体">两个部分，然后大概是这样用</font></span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+CHAR_INFO&nbsp;kCharInfo;</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+kCharInfo.Char.AsciiChar&nbsp;=&nbsp;&#39;a&#39;;</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">//</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">设置字符</span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'Times New Roman'; ">
+kCharInfo.Attributes&nbsp;=&nbsp;BACKGROUND_RED;</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">//</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">设置背景色，这里用的是控制台自己的宏但颜色种类少，也可以用<font face="Times New Roman">Dorothy</font><font face="宋体">的宏</font></span></p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+控制台格子的概念</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-size:10.5000pt; font-family:'宋体'; ">
+这个很明显了，控制台屏幕是被分为一个一个的格子，一个格子可以放一个字符。所以所有和控制台相关的坐标全都是基于这些格子的坐标，就连获取到鼠标在屏幕上的坐标也是按格子算的。控制台格子的像素宽高可以用<font face="Times New Roman">oConsole</font></span><span style="font-size:10.5000pt; font-family:'Times New Roman'; ">::SetFont</span><span style="font-size:10.5000pt; font-family:'宋体'; ">()<font face="宋体">来改，所以你可以通过改格子的宽高稍稍改善</font><font face="Times New Roman">Dorothy</font><font face="宋体">“分辨率低”的问题。</font></span></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<img height="422" src="Image/wps_clip_image-19780.png" width="513" /></p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+ViewWorld&nbsp;GameWorld</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+在Dorothy中屏幕显示的区域和游戏世界的范围是分开的，就是说你可以做个无限大的游戏世界然后通过使用oScreen::SetView()改变屏幕显示区域的位置来看到各个部分。</span></p>
+<p/><p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:bold; font-size:14.0000pt; font-family:'微软雅黑'; ">
+前景色和后景色</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<span style="font-weight:normal; font-size:10.5000pt; font-family:'宋体'; ">
+在设置oImage图片上颜色的时候可能会遇到两种类型的颜色FORECOLOR和BACKCOLOR，FORECOLOR是每个格子上字符的颜色，BACKCOLOR是字符背后矩形区域的颜色。</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<img height="103" src="Image/wps_clip_image-25431.png" width="125" /></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">
+//</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">设置了FORECOLOR</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">_CYAN&nbsp;|&nbsp;FORE_INTENSITY</span></p>
+<p class="p0" style="text-indent:21.0000pt; margin-bottom:0pt; margin-top:0pt; ">
+<img height="102" src="Image/wps_clip_image-27735.png" width="125" /></p>
+<p class="p0" style="margin-bottom:0pt; margin-top:0pt; ">
+<span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">
+//</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">设置了<font face="Times New Roman">FORECOLOR</font></span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">_CYAN&nbsp;|&nbsp;FORE_INTENSITY</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">&nbsp;</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'Times New Roman'; ">|&nbsp;BACKCOLOR_RED</span><span style="color:rgb(0,128,0); font-size:10.5000pt; font-family:'宋体'; ">(<font face="宋体">设置了</font><font face="Times New Roman">INTENSITY</font><font face="宋体">的颜色会比较明亮</font><font face="Times New Roman">)</font></span></p>
+
+<p/><a href="default.html"><img src="Image/Miku.png" class="style1" /></a>
+
+</body>
+
+</html>

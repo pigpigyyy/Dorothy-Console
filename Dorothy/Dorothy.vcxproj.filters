@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Oz_Header">
+      <UniqueIdentifier>{5446c8d8-4f00-4cea-8a99-46d74ebded5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Oz_Source">
+      <UniqueIdentifier>{2c6a4158-014e-4f02-b775-3178a9f16f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emerald_Header">
+      <UniqueIdentifier>{aa2501ca-5dc3-45d6-9b6e-3f3801cbebe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jack_Header">
+      <UniqueIdentifier>{f0828f2d-4fd1-4798-88bb-4de8cde22786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jack_Source">
+      <UniqueIdentifier>{64ca1da3-7a3f-4785-b2b0-84b75f73e67e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spell_Source">
+      <UniqueIdentifier>{b26ca829-a9e9-4fe1-8f7b-e892eb365289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emerald_Source">
+      <UniqueIdentifier>{d8026c1c-5493-48a7-b023-9cd8f5ffc525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spell_Header">
+      <UniqueIdentifier>{ef669d9b-68b9-4b8d-8345-b7137a34a441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{d0268a60-268e-4b25-b069-93a127f6d08e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Oz_Header\oAccurateTimer.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oCamera.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oConsole.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oDataTypes.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oDateTime.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oImage.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oInput.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oMusicPlayer.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oScreen.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oSound.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Oz_Header\oSoundPlayer.h">
+      <Filter>Oz_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oAnimation.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oFrameAnimation.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oGame.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oMoveAnimation.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oRotateAnimation.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oScaleAnimation.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oTimer.h">
+      <Filter>Emerald_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oGroup.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oIRender.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oIUpdate.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oObject.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oRenderController.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oSprite.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oUpdateController.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oZIndexListener.h">
+      <Filter>Jack_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oCirclePaint.h">
+      <Filter>Spell_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oDotPaint.h">
+      <Filter>Spell_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oLinePaint.h">
+      <Filter>Spell_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emerald_Header\oRectPaint.h">
+      <Filter>Spell_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\AcfDelegate.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\AcfDelegateTemplate.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Oz_Source\oAccurateTimer.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oCamera.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oConsole.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oDataTypes.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oDateTime.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oImage.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oImageLoader.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oInput.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oMusicPlayer.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oScreen.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oSound.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Oz_Source\oSoundPlayer.cpp">
+      <Filter>Oz_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oGroup.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oIRender.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oIUpdate.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oObject.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oRenderController.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oSprite.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oUpdateController.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oZIndexListener.cpp">
+      <Filter>Jack_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oCirclePaint.cpp">
+      <Filter>Spell_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oDotPaint.cpp">
+      <Filter>Spell_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oLinePaint.cpp">
+      <Filter>Spell_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oRectPaint.cpp">
+      <Filter>Spell_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oAnimation.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oFrameAnimation.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oGame.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oMoveAnimation.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oRotateAnimation.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oScaleAnimation.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emerald_Source\oTimer.cpp">
+      <Filter>Emerald_Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

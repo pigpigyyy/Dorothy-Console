@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{768F0D00-2487-4A4F-BB85-E75CB8AD6B21}</ProjectGuid>
+    <RootNamespace>Scarecrow</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../Header File;./Oz_Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Dorothy.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./debug;../debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../Header File;./Oz_Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Dorothy.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>./release;../release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header File\Dorothy.h" />
+    <ClInclude Include="Box2D\Box2D.h" />
+    <ClInclude Include="Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="Box2D\Common\b2Draw.h" />
+    <ClInclude Include="Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="Box2D\Common\b2Math.h" />
+    <ClInclude Include="Box2D\Common\b2Settings.h" />
+    <ClInclude Include="Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="Box2D\Common\b2Timer.h" />
+    <ClInclude Include="Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2MotorJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="Oz_Header\oBox.h" />
+    <ClInclude Include="Oz_Header\oBoxFactory.h" />
+    <ClInclude Include="Oz_Header\oBoxPicker.h" />
+    <ClInclude Include="Oz_Header\oDataTypes.h" />
+    <ClInclude Include="Oz_Header\oPhysicWorld.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2MotorJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="Oz_Header\oBoxFactory.cpp" />
+    <ClCompile Include="Oz_Source\oBox.cpp" />
+    <ClCompile Include="Oz_Source\oBoxPicker.cpp" />
+    <ClCompile Include="Oz_Source\oPhysicWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dorothy\Dorothy.vcxproj">
+      <Project>{cbe32227-f3d9-4e7f-80e7-731ee73b139b}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

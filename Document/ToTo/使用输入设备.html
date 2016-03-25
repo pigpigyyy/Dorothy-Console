@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>使用输入设备</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../Image/Bk.PNG')">
+
+<a href="../default.html">
+<img alt="Dorothy" class="style1" src="../Image/DorothySmall.PNG" /></a><hr />
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: center; font-weight: bold; font-size: 18.0000pt; font-family: 微软雅黑; color: #00FFFF;">
+使用输入设备</p>
+<p/>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: justify;">
+<span style="color: rgb(128,128,0); font-weight: bold; font-size: 14.0000pt; font-family: '微软雅黑';">
+函数列表</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+void</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oUpdateInputState</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+bool</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oIsKeyDown</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oUInt8</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">whichKey</span><span style="font-size: 10.5000pt; font-family: '宋体';">);</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+bool</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oIsLeftButtonDown</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+bool</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oIsRightButtonDown</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+int</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oGetCursorX</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+int</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oGetCursorY</span><span style="font-size: 10.5000pt; font-family: '宋体';">();</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: justify;">
+<span style="color: rgb(128,128,0); font-weight: bold; font-size: 14.0000pt; font-family: '微软雅黑';">
+函数说明</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>void</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oUpdateInputState</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>();</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">更新并获取当前的用户输入状态，调用后可以通过其它函数获取当前的用户输入信息</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>bool</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oIsKeyDown</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>(</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oUInt8</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>whichKey</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>);</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">获取用户是否按下某个按键，可取的参数见后面</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>bool</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oIsLeftButtonDown</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>();</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">获取用户是否按下鼠标左键</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>bool</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oIsRightButtonDown</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>();</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">获取用户是否按下鼠标右键</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>int</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oGetCursorX</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>();</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">获取当前鼠标在控制台上的横向第几个格子</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">
+<strong>int</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>&nbsp;</strong></span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';"><strong>oGetCursorY</strong></span><span style="font-size: 10.5000pt; font-family: '宋体';"><strong>();</strong></span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+说明：</span><span style="font-size: 10.5000pt; font-family: '宋体';">获取当前鼠标在控制台上的纵向第几个格子</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+键盘按键参数可取的值有</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_0&nbsp;~&nbsp;VK_9</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_A&nbsp;~&nbsp;VK_Z</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_F1&nbsp;~&nbsp;VK_F12</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_RETURN</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_SHIFT</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_CONTROL</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_ESCAPE</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_SPACE</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_LEFT</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_UP</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_RIGHT</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-autospace: ideograph-other; text-align: justify;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+VK_DOWN</span></p>
+
+<p/><hr /><a href="../ToTo.html">
+<img alt="Dorothy" class="style1" height="73" src="../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>oUnit</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../../Image/Bk.PNG')">
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+
+<a href="../../default.html">
+<img alt="Dorothy" class="style1" src="../../Image/DorothySmall.PNG" /></a></p>
+<hr />
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+oUnit类的成员函数，oUnit的构造函数。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">
+oUnit</span><span style="font-size: 10.5000pt; font-family: '宋体';">(</span><span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">bool</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">bImageBased</span><span style="font-size: 10.5000pt; font-family: '宋体';">&nbsp;=&nbsp;</span><span style="color: rgb(0,0,255); font-size: 10.5000pt; font-family: '宋体';">false</span><span style="font-size: 10.5000pt; font-family: '宋体';">);</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+参数</span><span style="color: rgb(128,0,128); font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">bImageBased&nbsp;——表明这个单位是否为基于图片的单位，true是，false否，默认否</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——基于图片的单位会自动把自己的宽高和所绘制图片的宽高统一起来。对于基于图片的单位，如果你改变它的宽高比图片要大，那么它在绘图时会自动放大图片到与自己的宽高一样；如果你改变它的图片缩放值比如X和Y方向都放大2倍，那么它的宽高也会自动变为原来的两倍；在图片设置了旋转角度后，它的大小也会自动的作出调整。</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——不基于图片的单位就还是保持单位大小<span lang="zh-cn">，</span>和图片大小没有任何关系</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——两种类型的单位还有个不同点就是基于图片的单位在绘制时，它的图片左上角一定是和单位的左上角重合的，而不基于图片的单位会以单位为中心来放置图片，就像这样：</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<img height="326" src="wps_clip_image-5091.png" width="412" /></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+蓝色的框表示单位的范围，绿色是图片的范围，图片永远是以单位为中心放置的碰撞检测只检测单位的范围</span></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<img height="326" src="wps_clip_image-16437.png" width="412" /></p>
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+基于图片的单位，图片宽高就是单位宽高，单位位置就是图片位置</span></p>
+<p/><hr />
+
+<a href="../oUnit.html">
+<img alt="Dorothy" class="style1" height="73" src="../../Image/DorothySmallBlack.PNG" style="float: left" width="205" /></a>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>AddNew</title>
+<style type="text/css">
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+text-align:justify;
+font-size:10.5000pt; font-family:'Times New Roman'; }
+.style1 {
+	color: #0000FF;
+}
+.style2 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body style="background-image: url('../../Image/Bk.PNG')">
+
+<a href="../../default.html">
+<img alt="Dorothy" class="style2" height="69" src="../../Image/DorothySmall.PNG" width="200" /></a><hr />
+
+<p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: rgb(0,128,0); font-size: 10.5000pt; font-family: '宋体';">
+oObjectGroup类的成员函数，将一个物体完全交给物体组管理。</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-size: 10.5000pt; font-family: '宋体';"><span class="style1">void</span>&nbsp;TakeOver(</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">oObject</span><span style="font-size: 10.5000pt; font-family: '宋体';">*&nbsp;</span><span style="color: rgb(1,0,1); font-size: 10.5000pt; font-family: '宋体';">pkObj</span><span style="font-size: 10.5000pt; font-family: '宋体';">);</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+参数</span><span style="color: rgb(128,0,128); font-size: 10.5000pt; font-family: '宋体';">&nbsp;</span><span style="font-size: 10.5000pt; font-family: '宋体';">pkObj&nbsp;——指向一个oObject的对象或是其派生对象的指针</span></p>
+<p/><p class="p0" style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;">
+<span style="color: rgb(128,128,0); font-size: 10.5000pt; font-family: '宋体';">
+——只要是oObject类或是其派生类对象只要自己情况处理好可能需要重写的虚函数Render()、Update()、GetRect()以及GetDisplayChar()和GetDisplayColor()函数后，就可以放心地把这样的类的对象通过TakeOver()函数交给oObjectGroup管理，以后这个对象的删除只能由管理它的组完成。被<span lang="en-us">TakeOver</span>的对象不会被oObjectGroup复制，oObjectGroup直接管理它本身。</span></p>
+<p/><hr />
+
+<a href="../oObjectGroup.html">
+<img alt="Dorothy" class="style2" height="73" src="../../Image/DorothySmallBlack.PNG" width="205" /></a>
+
+</body>
+
+</html>

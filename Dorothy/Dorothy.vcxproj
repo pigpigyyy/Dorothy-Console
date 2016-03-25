@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CBE32227-F3D9-4E7F-80E7-731EE73B139B}</ProjectGuid>
+    <RootNamespace>Dorothy</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\Other;.\Emerald_Header;.\Oz_Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>dsound.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\Other;.\Emerald_Header;.\Oz_Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>dsound.lib;gdi32.lib;user32.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Emerald_Header\oAnimation.h" />
+    <ClInclude Include="Emerald_Header\oCirclePaint.h" />
+    <ClInclude Include="Emerald_Header\oDotPaint.h" />
+    <ClInclude Include="Emerald_Header\oFrameAnimation.h" />
+    <ClInclude Include="Emerald_Header\oGame.h" />
+    <ClInclude Include="Emerald_Header\oGroup.h" />
+    <ClInclude Include="Emerald_Header\oIRender.h" />
+    <ClInclude Include="Emerald_Header\oIUpdate.h" />
+    <ClInclude Include="Emerald_Header\oLinePaint.h" />
+    <ClInclude Include="Emerald_Header\oMoveAnimation.h" />
+    <ClInclude Include="Emerald_Header\oObject.h" />
+    <ClInclude Include="Emerald_Header\oRectPaint.h" />
+    <ClInclude Include="Emerald_Header\oRenderController.h" />
+    <ClInclude Include="Emerald_Header\oRotateAnimation.h" />
+    <ClInclude Include="Emerald_Header\oScaleAnimation.h" />
+    <ClInclude Include="Emerald_Header\oSprite.h" />
+    <ClInclude Include="Emerald_Header\oTimer.h" />
+    <ClInclude Include="Emerald_Header\oUpdateController.h" />
+    <ClInclude Include="Emerald_Header\oZIndexListener.h" />
+    <ClInclude Include="Other\AcfDelegate.h" />
+    <ClInclude Include="Other\AcfDelegateTemplate.h" />
+    <ClInclude Include="Oz_Header\oAccurateTimer.h" />
+    <ClInclude Include="Oz_Header\oCamera.h" />
+    <ClInclude Include="Oz_Header\oConsole.h" />
+    <ClInclude Include="Oz_Header\oDataTypes.h" />
+    <ClInclude Include="Oz_Header\oDateTime.h" />
+    <ClInclude Include="Oz_Header\oImage.h" />
+    <ClInclude Include="Oz_Header\oInput.h" />
+    <ClInclude Include="Oz_Header\oMusicPlayer.h" />
+    <ClInclude Include="Oz_Header\oScreen.h" />
+    <ClInclude Include="Oz_Header\oSound.h" />
+    <ClInclude Include="Oz_Header\oSoundPlayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Emerald_Source\oAnimation.cpp" />
+    <ClCompile Include="Emerald_Source\oCirclePaint.cpp" />
+    <ClCompile Include="Emerald_Source\oDotPaint.cpp" />
+    <ClCompile Include="Emerald_Source\oFrameAnimation.cpp" />
+    <ClCompile Include="Emerald_Source\oGame.cpp" />
+    <ClCompile Include="Emerald_Source\oGroup.cpp" />
+    <ClCompile Include="Emerald_Source\oIRender.cpp" />
+    <ClCompile Include="Emerald_Source\oIUpdate.cpp" />
+    <ClCompile Include="Emerald_Source\oLinePaint.cpp" />
+    <ClCompile Include="Emerald_Source\oMoveAnimation.cpp" />
+    <ClCompile Include="Emerald_Source\oObject.cpp" />
+    <ClCompile Include="Emerald_Source\oRectPaint.cpp" />
+    <ClCompile Include="Emerald_Source\oRenderController.cpp" />
+    <ClCompile Include="Emerald_Source\oRotateAnimation.cpp" />
+    <ClCompile Include="Emerald_Source\oScaleAnimation.cpp" />
+    <ClCompile Include="Emerald_Source\oSprite.cpp" />
+    <ClCompile Include="Emerald_Source\oTimer.cpp" />
+    <ClCompile Include="Emerald_Source\oUpdateController.cpp" />
+    <ClCompile Include="Emerald_Source\oZIndexListener.cpp" />
+    <ClCompile Include="Oz_Source\oAccurateTimer.cpp" />
+    <ClCompile Include="Oz_Source\oCamera.cpp" />
+    <ClCompile Include="Oz_Source\oConsole.cpp" />
+    <ClCompile Include="Oz_Source\oDataTypes.cpp" />
+    <ClCompile Include="Oz_Source\oDateTime.cpp" />
+    <ClCompile Include="Oz_Source\oImage.cpp" />
+    <ClCompile Include="Oz_Source\oImageLoader.cpp" />
+    <ClCompile Include="Oz_Source\oInput.cpp" />
+    <ClCompile Include="Oz_Source\oMusicPlayer.cpp" />
+    <ClCompile Include="Oz_Source\oScreen.cpp" />
+    <ClCompile Include="Oz_Source\oSound.cpp" />
+    <ClCompile Include="Oz_Source\oSoundPlayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
